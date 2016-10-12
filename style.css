@@ -1,0 +1,26 @@
+html {
+    background: teal;
+}
+
+ul {
+    list-style-type: none; 
+}
+
+li {
+    display: inline;
+    padding: 2.8%;
+}
+
+.yellow {
+    color: yellow;
+    font-size: 200%;
+}
+
+a {
+    text-decoration: none;   
+}
+
+#map {
+  width: 600px; 
+  height: 400px;
+}
