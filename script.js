@@ -23,10 +23,11 @@ function getRandomCities(restartCount) {
     if(cityCount < 0) {
         window.alert("Invalid number!");
         return;
-    } else if(cityCount > 2) {
-    	window.alert("Upgrade to see more than 2 cities!");
-        cityCount = 2;
-    }
+    } 
+//else if(cityCount > 2) {
+   // 	window.alert("Upgrade to see more than 2 cities!");
+    //    cityCount = 2;
+ //   }
 
     var locations2 = getLocations();
 
