@@ -66,8 +66,8 @@ function getRandomCities(restartCount) {
 		})
 	}
 
-for (i = 0; i < latlons.length; i++) {
-	    getTime(latlons[i]).then(function(response) {
+for (j = 0; j < latlons.length; j++) {
+	    getTime(latlons[j]).then(function(response) {
 		  console.log("Success!", response);
 		}, function(error) {
 		  console.error("Failed!", error);
